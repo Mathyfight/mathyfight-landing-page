@@ -1166,13 +1166,13 @@ button:focus,
 
 /* homepage 3 */
 .gradient-banner {
-    z-index : 1;
     padding : 100px 0 170px;
     position: relative;
     overflow: hidden;
 }
 
 .gradient-banner::before {
+    z-index          : -1;
     position         : absolute;
     content          : '';
     bottom           : 0;
@@ -1190,6 +1190,7 @@ button:focus,
 }
 
 .shapes-container {
+    z-index : -1;
     position: absolute;
     overflow: hidden;
     top     : 0;
