@@ -65,6 +65,12 @@ cite {
     transform        : translateY(-50%);
 }
 
+.bottom {
+    padding: 0;
+    margin : 0;
+    width  : 100%;
+}
+
 .feature4 {
     width : auto;
     height: 600px;
@@ -178,7 +184,8 @@ a:hover {
 }
 
 .bg-blue {
-    background: #2e7eed;
+    background: rgb(55, 47, 198);
+    background: linear-gradient(180deg, rgba(55, 47, 198, 1) 0%, rgba(45, 211, 245, 1) 100%);
 }
 
 .section {
@@ -1200,7 +1207,8 @@ button:focus,
     width            : 200%;
     height           : 200%;
     border-radius    : 50%;
-    background-image : linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+    background       : rgb(56, 9, 187);
+    background       : linear-gradient(45deg, rgba(56, 9, 187, 1) 0%, rgba(57, 201, 222, 1) 100%);
 }
 
 .pull-top {
@@ -1227,7 +1235,7 @@ button:focus,
     bottom           : 0;
     left             : 0;
     right            : 0;
-    background-color : rgba(255, 255, 255, 0.1);
+    background-color : rgba(255, 255, 255, 0.137);
     -webkit-transform: rotate(-35deg);
     transform        : rotate(-35deg);
     position         : absolute;
