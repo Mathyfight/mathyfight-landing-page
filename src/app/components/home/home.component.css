@@ -65,6 +65,11 @@ cite {
     transform        : translateY(-50%);
 }
 
+.feature4 {
+    width : auto;
+    height: 600px;
+}
+
 .lora {
     font-family: "Lora", serif;
     font-style : italic;
