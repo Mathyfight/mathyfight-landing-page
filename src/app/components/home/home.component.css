@@ -51,6 +51,20 @@ cite {
     padding: 0px 110px;
 }
 
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .container {
+        padding: 0px 110px;
+    }
+}
+
+.center {
+    position         : relative;
+    top              : 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform    : translateY(-50%);
+    transform        : translateY(-50%);
+}
+
 .lora {
     font-family: "Lora", serif;
     font-style : italic;
@@ -162,17 +176,6 @@ a:hover {
     background: #2e7eed;
 }
 
-.bg-1 {
-    background     : url(../../../assets/images/background/promo-video-back.jpg) fixed no-repeat;
-    background-size: cover;
-}
-
-.bg-coming-soon {
-    background         : url(../../../assets/images/background/comming-soon.jpg) fixed no-repeat;
-    background-size    : cover;
-    background-position: bottom;
-}
-
 .section {
     padding: 100px 0;
 }
@@ -196,6 +199,12 @@ a:hover {
     .section-title p {
         width: 100%;
     }
+}
+
+.pixel-art {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
 }
 
 .page-title {
