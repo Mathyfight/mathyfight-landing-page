@@ -7,7 +7,6 @@ import * as AOS from 'aos';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit(): void {
@@ -16,13 +15,13 @@ export class HomeComponent implements OnInit {
       duration: 3000
     });
 
-    setInterval(() => {
-      AOS.refresh();
-    }, 1000);
+    (async () => {
+      await this.delay(100);
+      AOS.refreshHard();
+    })();
   }
 
-  // @HostListener('window:scroll', ['$event'])
-  // onScroll() {
-
-  // }
+  delay(ms: number) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
 }
