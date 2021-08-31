@@ -1,10 +1,56 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Open+Sans:300,400,600,700,800");
 
+/* XSmall */
 @media (max-width: 575px) {
     h1 {
         font-size    : 4.5vw;
         line-height  : 6vw;
         margin-bottom: 2.5vw;
+    }
+
+    h3 {
+        margin-top: 5vw;
+        font-size : 2.5vw;
+        padding   : 0;
+    }
+
+    div.bg-white {
+        padding: 3vw 8vw;
+    }
+
+    .col-1 {
+        padding: 0;
+    }
+
+    .img-holder {
+        position: relative;
+        width   : 100%;
+        height  : 100%;
+    }
+
+    .h-img-holder {
+        padding : 0;
+        position: relative;
+        width   : 100%;
+        height  : 13vw;
+    }
+
+    img.highlight-section-arrow {
+        right: 3vw;
+        width: 5vw;
+    }
+
+    img.highlight-section-1 {
+        width: 16vw;
+    }
+
+    img.highlight-section-2 {
+        width: 14vw;
+    }
+
+    img.highlight-section-3 {
+        width: 24vw;
+        top  : 4vw;
     }
 
     a.btn {
@@ -24,16 +70,51 @@
     }
 
     .container {
-        padding  : 0px 0px;
-        margin   : 0px 5%;
+        padding  : 0px 3%;
+        margin   : 0px 3%;
         max-width: 90%;
     }
 }
 
+/* Small */
 @media (min-width: 576px) and (max-width: 767px) {
     h1 {
         font-size  : 28px;
         line-height: 38px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .img-holder {
+        position: relative;
+        width   : 100%;
+        height  : 100%;
+    }
+
+    .h-img-holder {
+        padding : 0;
+        position: relative;
+        width   : 100%;
+        height  : 7em;
+    }
+
+    img.highlight-section-arrow {
+        width: 5vw;
+    }
+
+    img.highlight-section-1 {
+        width: 16vw;
+    }
+
+    img.highlight-section-2 {
+        width: 14vw;
+    }
+
+    img.highlight-section-3 {
+        width: 24vw;
+        top  : 4vw;
     }
 
     .btn-rounded-icon {
@@ -59,6 +140,7 @@
     }
 }
 
+/* Medium */
 @media (min-width: 768px) and (max-width: 991px) {
     h1 {
         font-size  : 33px;
@@ -67,6 +149,40 @@
 
     a.btn {
         font-size: 18px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .img-holder {
+        position: relative;
+        width   : 100%;
+        height  : 100%;
+    }
+
+    .h-img-holder {
+        padding : 0;
+        position: relative;
+        width   : 100%;
+        height  : 10em;
+    }
+
+    img.highlight-section-arrow {
+        width: 5vw;
+    }
+
+    img.highlight-section-1 {
+        width: 16vw;
+    }
+
+    img.highlight-section-2 {
+        width: 14vw;
+    }
+
+    img.highlight-section-3 {
+        width: 24vw;
+        top  : 4vw;
     }
 
     p {
@@ -84,6 +200,7 @@
     }
 }
 
+/* Large */
 @media (min-width: 992px) and (max-width: 1199px) {
     h1 {
         font-size  : 35px;
@@ -93,6 +210,41 @@
     h2 {
         font-size  : 38px;
         line-height: 50px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        font-size : 20px;
+    }
+
+    .img-holder {
+        position: relative;
+        width   : 100%;
+        height  : 100%;
+    }
+
+    .h-img-holder {
+        padding : 0;
+        position: relative;
+        width   : 100%;
+        height  : 10em;
+    }
+
+    img.highlight-section-arrow {
+        width: 3em;
+    }
+
+    img.highlight-section-1 {
+        width: 10em;
+    }
+
+    img.highlight-section-2 {
+        width: 9em;
+    }
+
+    img.highlight-section-3 {
+        width: 14em;
+        top  : 2em;
     }
 
     a.btn {
@@ -112,6 +264,7 @@
     }
 }
 
+/* Extra Large */
 @media (min-width: 1200px) and (max-width: 1399px) {
     h1 {
         font-size  : 35px;
@@ -121,6 +274,41 @@
     h2 {
         font-size  : 38px;
         line-height: 50px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        font-size : 20px;
+    }
+
+    .img-holder {
+        position: relative;
+        width   : 100%;
+        height  : 100%;
+    }
+
+    .h-img-holder {
+        padding : 0;
+        position: relative;
+        width   : 100%;
+        height  : 10em;
+    }
+
+    img.highlight-section-arrow {
+        width: 3em;
+    }
+
+    img.highlight-section-1 {
+        width: 10em;
+    }
+
+    img.highlight-section-2 {
+        width: 9em;
+    }
+
+    img.highlight-section-3 {
+        width: 14em;
+        top  : 2em;
     }
 
     a.btn {
@@ -140,6 +328,7 @@
     }
 }
 
+/* Extra extra large */
 @media (min-width: 1400px) {
     h1 {
         font-size  : 45px;
@@ -149,6 +338,41 @@
     h2 {
         font-size  : 40px;
         line-height: 50px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        font-size : 20px;
+    }
+
+    .img-holder {
+        position: relative;
+        width   : 100%;
+        height  : 100%;
+    }
+
+    .h-img-holder {
+        padding : 0;
+        position: relative;
+        width   : 100%;
+        height  : 10em;
+    }
+
+    img.highlight-section-arrow {
+        width: 3em;
+    }
+
+    img.highlight-section-1 {
+        width: 10em;
+    }
+
+    img.highlight-section-2 {
+        width: 9em;
+    }
+
+    img.highlight-section-3 {
+        width: 14em;
+        top  : 2em;
     }
 
     a.btn {
@@ -184,27 +408,9 @@ h6 {
     font-weight: 300;
 }
 
-h3 {
-    font-size  : 20px;
-    line-height: 30px;
-}
-
 cite {
     font-size : 14px;
     font-style: normal;
-}
-
-.h-img-holder {
-    padding : 0;
-    position: relative;
-    width   : 100%;
-    height  : 10em;
-}
-
-.img-holder {
-    position: relative;
-    width   : 100%;
-    height  : 100%;
 }
 
 .center-img {

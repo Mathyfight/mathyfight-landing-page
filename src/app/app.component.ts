@@ -10,5 +10,4 @@ import { Component, OnInit } from '@angular/core';
 
 export class AppComponent {
   title = 'mathyfight-landing-page';
-
 }
