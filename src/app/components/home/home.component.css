@@ -374,6 +374,15 @@
     }
 }
 
+.raise {
+    transition: all 0.3s;
+}
+
+.raise:hover {
+    transform : translatey(-0.5rem);
+    box-shadow: 0 6px 8px -2px #23152c;
+}
+
 .img-holder-feature {
     position       : relative;
     width          : 100%;
