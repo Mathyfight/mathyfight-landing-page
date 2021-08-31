@@ -2,16 +2,25 @@
 
 @media (max-width: 575px) {
     h1 {
-        font-size  : 5vw;
-        line-height: 7vw;
+        font-size    : 4.5vw;
+        line-height  : 6vw;
+        margin-bottom: 2.5vw;
+    }
+
+    a.btn {
+        font-size: 3vw;
+    }
+
+    .btn-rounded-icon.btn {
+        padding: 2vw 8vw;
     }
 
     p {
         font-size     : 3vw;
         letter-spacing: 0;
-        line-height   : 4vw;
+        line-height   : 3vw;
         color         : #808080;
-        margin-bottom : 0;
+        margin-bottom : 2.5vw;
     }
 
     .container {
@@ -27,12 +36,20 @@
         line-height: 38px;
     }
 
+    .btn-rounded-icon {
+        padding: 3vw 5vw;
+    }
+
+    a.btn {
+        font-size: 18px;
+    }
+
     p {
         font-size     : 18px;
         letter-spacing: 0;
         line-height   : 25px;
         color         : #808080;
-        margin-bottom : 0;
+        margin-bottom : 25px;
     }
 
     .container {
@@ -48,12 +65,16 @@
         line-height: 40px;
     }
 
+    a.btn {
+        font-size: 18px;
+    }
+
     p {
         font-size     : 20px;
         letter-spacing: 0;
         line-height   : 25px;
         color         : #808080;
-        margin-bottom : 0;
+        margin-bottom : 35px;
     }
 
     .container {
@@ -69,12 +90,21 @@
         line-height: 45px;
     }
 
+    h2 {
+        font-size  : 38px;
+        line-height: 50px;
+    }
+
+    a.btn {
+        font-size: 20px;
+    }
+
     p {
         font-size     : 20px;
         letter-spacing: 0;
         line-height   : 25px;
         color         : #808080;
-        margin-bottom : 0;
+        margin-bottom : 35px;
     }
 
     .container {
@@ -93,12 +123,16 @@
         line-height: 50px;
     }
 
+    a.btn {
+        font-size: 22px;
+    }
+
     p {
         font-size     : 20px;
         letter-spacing: 0;
         line-height   : 25px;
         color         : #808080;
-        margin-bottom : 0;
+        margin-bottom : 35px;
     }
 
     .container {
@@ -117,12 +151,16 @@
         line-height: 50px;
     }
 
+    a.btn {
+        font-size: 22px;
+    }
+
     p {
         font-size     : 20px;
         letter-spacing: 0;
         line-height   : 25px;
         color         : #808080;
-        margin-bottom : 0;
+        margin-bottom : 35px;
     }
 
     .container {
