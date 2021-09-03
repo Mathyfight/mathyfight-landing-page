@@ -2,7 +2,14 @@
 
 /* XSmall */
 @media (max-width: 575px) {
-    h1 {
+    .feature-img {
+        object-fit: contain;
+        width     : auto;
+        height    : 100%;
+    }
+
+    h1,
+    h2 {
         font-size    : 4.5vw;
         line-height  : 6vw;
         margin-bottom: 2.5vw;
@@ -90,7 +97,14 @@
 
 /* Small */
 @media (min-width: 576px) and (max-width: 767px) {
-    h1 {
+    .feature-img {
+        object-fit: contain;
+        width     : auto;
+        height    : 100%;
+    }
+
+    h1,
+    h2 {
         font-size  : 28px;
         line-height: 38px;
     }
@@ -148,7 +162,14 @@
 
 /* Medium */
 @media (min-width: 768px) and (max-width: 991px) {
-    h1 {
+    .feature-img {
+        object-fit: contain;
+        width     : 100%;
+        height    : auto;
+    }
+
+    h1,
+    h2 {
         font-size  : 33px;
         line-height: 40px;
     }
@@ -202,6 +223,12 @@
 
 /* Large */
 @media (min-width: 992px) and (max-width: 1199px) {
+    .feature-img {
+        object-fit: contain;
+        width     : 100%;
+        height    : auto;
+    }
+
     h1 {
         font-size  : 35px;
         line-height: 45px;
@@ -260,6 +287,12 @@
 
 /* Extra Large */
 @media (min-width: 1200px) and (max-width: 1399px) {
+    .feature-img {
+        object-fit: contain;
+        width     : 100%;
+        height    : auto;
+    }
+
     h1 {
         font-size  : 35px;
         line-height: 45px;
@@ -318,6 +351,12 @@
 
 /* Extra extra large */
 @media (min-width: 1400px) {
+    .feature-img {
+        object-fit: contain;
+        width     : 100%;
+        height    : auto;
+    }
+
     h1 {
         font-size  : 45px;
         line-height: 61px;
@@ -381,6 +420,10 @@
 .raise:hover {
     transform : translatey(-0.5rem);
     box-shadow: 0 6px 8px -2px #23152c;
+}
+
+.feature-padding {
+    padding: 11%;
 }
 
 .img-holder-feature {
