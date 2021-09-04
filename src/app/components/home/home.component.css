@@ -2,11 +2,6 @@
 
 /* XSmall */
 @media (max-width: 575px) {
-    .feature-img {
-        object-fit: contain;
-        width     : auto;
-        height    : 100%;
-    }
 
     h1,
     h2 {
@@ -99,11 +94,6 @@
 
 /* Small */
 @media (min-width: 576px) and (max-width: 767px) {
-    .feature-img {
-        object-fit: contain;
-        width     : auto;
-        height    : 100%;
-    }
 
     h1,
     h2 {
@@ -166,11 +156,6 @@
 
 /* Medium */
 @media (min-width: 768px) and (max-width: 991px) {
-    .feature-img {
-        object-fit: contain;
-        width     : 100%;
-        height    : auto;
-    }
 
     h1,
     h2 {
@@ -227,12 +212,6 @@
 
 /* Large */
 @media (min-width: 992px) and (max-width: 1199px) {
-    .feature-img {
-        object-fit: contain;
-        width     : 100%;
-        height    : auto;
-    }
-
     h1 {
         font-size  : 35px;
         line-height: 45px;
@@ -291,12 +270,6 @@
 
 /* Extra Large */
 @media (min-width: 1200px) and (max-width: 1399px) {
-    .feature-img {
-        object-fit: contain;
-        width     : 100%;
-        height    : auto;
-    }
-
     h1 {
         font-size  : 35px;
         line-height: 45px;
@@ -355,12 +328,6 @@
 
 /* Extra extra large */
 @media (min-width: 1400px) {
-    .feature-img {
-        object-fit: contain;
-        width     : 100%;
-        height    : auto;
-    }
-
     h1 {
         font-size  : 45px;
         line-height: 61px;
@@ -426,10 +393,6 @@
     box-shadow: 0 6px 8px -2px #23152c;
 }
 
-.feature-padding {
-    padding: 11%;
-}
-
 .img-holder-feature {
     position       : relative;
     width          : 100%;
@@ -437,6 +400,16 @@
     /* border-width: 1px;
     border-style   : solid;
     border-color   : black; */
+}
+
+
+/* <section class="feature section pt-0" style="">
+    <div class="container" style=""> */
+
+.feature {
+    overflow: visible;
+    margin  : 15vw 0px;
+
 }
 
 .img-holder {
@@ -484,11 +457,6 @@ cite {
     padding: 0;
     margin : 0;
     width  : 100%;
-}
-
-.feature4 {
-    width : auto;
-    height: 600px;
 }
 
 body {
@@ -709,45 +677,6 @@ a:hover {
 
 .banner .block ul.clients-logo li:first-child {
     margin-left: 0;
-}
-
-.slider {
-    padding   : 180px 0 300px;
-    text-align: center;
-    position  : relative;
-    overflow  : hidden;
-}
-
-.slider .block {
-    position: relative;
-}
-
-.slider .block h1,
-.slider .block h3 {
-    color: #fff;
-}
-
-.slider .block .download {
-    margin-top: 20px;
-}
-
-.slider .block .image-content {
-    text-align: center;
-}
-
-.slider .block .image-content img {
-    margin-top   : 100px;
-    margin-bottom: -200px;
-}
-
-.slider:before {
-    content      : '';
-    position     : absolute;
-    bottom       : 0;
-    right        : 0;
-    border-bottom: 290px solid #fff;
-    border-left  : 2000px solid transparent;
-    width        : 0;
 }
 
 .services .service-block {
