@@ -446,6 +446,13 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+html,
+body,
+.container,
+.section {
+    overflow: hidden;
+}
+
 h1,
 h2,
 h3,
